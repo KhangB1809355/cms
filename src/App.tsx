@@ -1,21 +1,17 @@
 
-import React, { useEffect } from "react";
-import { useDispatch } from "react-redux";
-import { getInit } from "./store/redux/slices/initSlice.ts";
+import React from "react";
+import "react-toastify/ReactToastify.css";
+import { ToastContainer } from "react-toastify";
+
+
 
 function App(){
-  const dispatch = useDispatch()
-
-
-  useEffect(()=>{
-    dispatch({
-      type: getInit.type
-    })
-  },[])
-
+  
   return (
-    <div className="font-bold">
-        ĐÂSDASDASDASDASD
+    <div id="cms">
+        <ToastContainer /> 
+        
+
     </div>
   );
 }

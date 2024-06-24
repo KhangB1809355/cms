@@ -1,9 +1,10 @@
 import React from 'react';
-import ReactDOM, { Container } from 'react-dom/client';
-import './styles/global.css';
 import App from './App.tsx';
-import { Provider } from "react-redux"
+import './styles/global.css';
 import store from './store/store.ts';
+import { Provider } from "react-redux";
+import { ToastContainer } from "react-toastify";
+import ReactDOM, { Container } from 'react-dom/client';
 
 const element: Element | null = document.getElementById('root');
 const container = element as Container
