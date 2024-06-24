@@ -1,0 +1,33 @@
+{
+    "compilerOptions": {
+      "target": "es6",
+      "module": "commonjs",
+      "outDir": "./dist",
+      "esModuleInterop": true,
+      "allowSyntheticDefaultImports": true,
+      "strict": true,
+      "skipLibCheck": true,
+      "forceConsistentCasingInFileNames": true,
+      "noImplicitAny": true,
+      "strictNullChecks": true,
+    //   "esModuleResolution": "node",
+      "resolveJsonModule": true,
+      "rootDir": "./src",
+      "typeRoots": [
+        "node_modules/@types"
+      ],
+      "lib": ["dom", "esnext"],
+      "allowJs": true,
+    //   "skipUndeclaredVars": true,
+      "declaration": false
+    },
+    "include": [
+      "./src/**/*.ts",
+      "./src/**/*.tsx"
+    ],
+    "exclude": [
+      "node_modules",
+      "**/*.spec.ts",
+      "**/*.spec.tsx"
+    ]
+  }
