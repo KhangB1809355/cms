@@ -13,5 +13,5 @@ export const ErrorNotification = (message) => {
 };
 
 export const WarnNotification = (message) => {
-  toast.warn(message);
+  toast.warn(message); // Done
 };
